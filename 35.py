@@ -101,26 +101,7 @@ class ktools:
     self.m()
     self.tr()
     self.put2()
-    self.m()
-    self.m()
-    self.tr()
-    self.put5()
-    self.ta()
-    self.mm(5)
-    self.tr()
-    self.m()
-    self.put2()
-    self.m()
-    self.m()
-    self.tr()
-    self.put5()
-    self.ta()
-    self.mm(4)
-    self.tr()
-    self.m()
-    self.put2()
-    self.m()
-    self.m()
+    self.mm(2)
 
   def ll(self):
     """Print LL using beepers"""
@@ -155,7 +136,9 @@ class ktools:
     self.m()
     self.tl()
     self.put4()
-    self.mm(3)
+    self.m()
+    self.tr()
+    self.mm(4)
 
   def fic(self):
     """Front is Clear"""

@@ -213,6 +213,29 @@ class ktools:
     self.tl()
     self.mm(2)
     
+  def one(self):
+    """Print one using beepers"""
+    self.putm(3)
+    self.ta()
+    self.m()
+    self.tr()
+    self.m()
+    self.putm(4)
+    self.tl()
+    self.m()
+    self.tl()
+    self.put()
+    self.tl()
+    self.m()
+    self.tl()
+    self.put()
+    self.ta()
+    self.mm(4)
+    self.tr()
+    self.mm(2)
+    self.tl()
+    self.mm(2)
+    
 
   def fic(self):
     """Front is Clear"""
@@ -308,15 +331,16 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt = ktools()
-    kt.c()
-    kt.R()
-    kt.I()
-    kt.S()
-    kt.T()
+    kt.one()
     kt.O()
-    kt.H()
-    kt.E()
-    kt.R()
+    kt.O()
+    kt.O()
+    kt.O()
+    kt.O()
+    kt.O()
+    kt.O()
+    kt.O()
+    kt.O()
     pass
 
 
